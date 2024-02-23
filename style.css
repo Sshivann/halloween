@@ -60,7 +60,7 @@ body {
 .logoimg {
     width: 3em;
 }
-#audioController {
+#audiocontroller {
     width: 45px;
     height: 35px;
     cursor: pointer;
@@ -68,10 +68,10 @@ body {
     margin: 0 1em 0 2em;
 }
 
-#audioController:hover {
+#audiocontroller:hover {
     filter: brightness(0.8);
 }
-.sourcesContainer {
+.sourcescontainer {
     color: white;
     position: absolute;
     left: 18em;
