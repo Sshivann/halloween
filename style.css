@@ -110,15 +110,14 @@ body {
     margin-right: 2.5vw;
 }
 .separator {
-    width: 2.5em;
-    height: 2.5em;
-    filter: hue-rotate(140deg);
+    width: 2.7em;
+    height: 2.3em;
 }
 .about, .characters, .music, .contact {
     font-size: 1.1em;
     text-decoration: none;
     color:rgb(221, 221, 221);
-    font-family: "izayoi";
+    font-family: "Protest Revolution", sans-serif;
     position: relative;
     padding: 0 6px;
 }
