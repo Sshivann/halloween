@@ -1,13 +1,7 @@
 html {
     margin: 0;
     min-height: 100%;
-}
-.protest-revolution-regular {
-    font-family: "Protest Revolution", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+} 
 body {
     margin: 0;
 }
@@ -125,12 +119,12 @@ body {
 .about:after, .characters:after, .music:after, .contact:after {
     content: "";
     position: absolute;
-    background-image: linear-gradient(to right,rgb(120, 4, 4), rgb(220, 4, 4));
+    background-image: linear-gradient(to right,rgb(120, 4, 4), rgb(238, 5, 5));
     height: 2px;
     width: 0%;
     left: 0;
     bottom: -2px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .about:hover:after, .characters:hover:after, .music:hover:after, .contact:hover:after {
@@ -138,7 +132,7 @@ body {
 }
 
 .about:hover, .characters:hover, .music:hover, .contact:hover {
-    text-shadow: 0 0 5px rgb(200, 3, 3), 0 0 12px rgb(200, 3, 3) 0 0 20px rgb(200, 3, 3);
+    text-shadow: 0 0 5px rgb(120, 4, 4), 0 0 12px rgb(200, 3, 3) 0 0 20px rgb(238, 5, 5);
     color: white;
 }
 
@@ -166,7 +160,7 @@ transition: all .5s ease-in-out;
 }
 
 
-.menuhamburgerBtn {
+.menuhamburgerbtn {
 width: 25px;
 height: 2.5px;
 background: #fff;
@@ -174,7 +168,7 @@ border-radius: 2px;
 transition: all .25s ease-in-out;
 }
 
-.menuhamburgerBtn::before, .menuhamburgerBtn::after {
+.menuhamburgerbtn::before, .menuhamburgerbtn::after {
 content: "";
 position: absolute;
 width: 25px;
@@ -184,25 +178,25 @@ border-radius: 2px;
 transition: all .25s ease-in-out;
 }
 
-.menuhamburgerBtn::before {
+.menuhamburgerbtn::before {
 transform: translateY(-10px);
 }
 
-.menuhamburgerBtn::after {
+.menuhamburgerbtn::after {
 transform: translateY(10px);
 }
 
-.menuhamburger.open .menuhamburgerBtn {
+.menuhamburger.open .menuhamburgerbtn {
 transform: translateX(-50px);
 background: transparent;
 }
 
-.menuhamburger.open .menuhamburgerBtn:before {
+.menuhamburger.open .menuhamburgerbtn:before {
 transform: rotate(45deg) translate(35px, -35px);
 
 }
 
-.menuhamburger.open .menuhamburgerBtn:after {
+.menuhamburger.open .menuhamburgerbtn:after {
 transform: rotate(-45deg) translate(35px, 35px);
 
 }
@@ -270,11 +264,11 @@ position: relative;
     line-height: 1.4em;
     text-align: justify;
 }
-.joinnowcontainer {
+.joinuscontainer {
     margin-top: 3em;
 }
 
-.joinus {
+.joinnow {
     color: white;
     border: 0.2em solid #3432329c;
     border-radius: 2em;
@@ -307,7 +301,7 @@ position: relative;
 }
 
 .layer1Image {
-    width: 35vw;
+    width: 32vw;
     
 }
 
@@ -319,4 +313,73 @@ position: relative;
 
 .layer1Source {
     color: white;
+}
+.layer2Bg {
+    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9)); 
+    margin-top: 18em;
+}
+
+.layer2Content {
+    padding-top: 1em;
+}
+
+.layer2Heading {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 0.5em 1em 1.5em 1em;
+    font-family: "kamishirasawa";
+
+}
+
+.layer2InfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;    
+    flex-wrap: wrap;
+}
+
+.gameContainer, .fanartContainer, .musicContainer, .heyMisterContainer, .fumoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.gameImage, .fanartImage, .musicVideo, .heyMisterImage, .fumoImage {
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em;
+}
+
+.gameImage:hover, .fanartImage:hover, .musicVideo:hover, .heyMisterImage:hover, .fumoImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(2, 173, 164);
+}
+
+.fanartSource {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: -2em;
+}
+
+.linkI {
+    margin: 1em 2em 0 2em;
+    border-radius: 1.5em;
+}
+
+.gameSubtext, .fanartSubtext, .musicSubtext, .heyMisterSubtext, .fumoSubtext {
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    margin: 1em 0 1em 0;
+    font-family: "lunatic";
+    z-index: 2;
 }

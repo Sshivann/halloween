@@ -6,6 +6,7 @@
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HALLOWEEN</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="backgroundcontainer">
@@ -25,7 +26,7 @@
         </a>
         <img id = "audiocontroller" src = "logo/cassette-8437146_1920.png" onclick = "audiocontroller(); imagechange();">
     </div>
-    <div class="sourcesocntainer">
+    <div class="sourcescontainer">
         <button class = "link" onclick = "showOrHide()">Sources</button>
         <div class = "dropdowncontent">
             <div class = "aboutcopyright">
@@ -70,11 +71,46 @@
             <div class = "layer1Right">
                 <img class = "layer1Image" src = "img/layer1.jpg">
                 <div class = "layer1Caption">
-                 TRICK OR TREAT 🎃🍬👻
+                 THE SPOOKY HOUSE🎃👻⚰️
+                </div>
+                <a class = "layer1Source" href = "" target = "_blank"></a>
+            </div>
+        </div>
+        </div>
+        <div class = "layer2">
+            <div class = "layer2Bg">
+                <div class = "layer2Content">
+                    <div class = "layer2Heading">
+                        Why not come down to the Touhou rabbit hole? We've got...
+                    </div>
+                    <div class = "layer2InfoContainer">
+                        <div class = "gameContainer">
+                            <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "resources/touhouLunaNights.jpg"></a>
+                            <div class = "gameSubtext">Games!</div>
+                        </div>
+                        <div class = "fanartContainer">
+                            <a class = "linkI" href = "https://www.pixiv.net/en/users/132450"><img class = "fanartImage" src ="resources/toyosatomimiFanart.jpg"></a>
+                            <div class = "fanartSubtext">Fanart!</div>
+                            <div class = "fanartSource">by syuri22 (https://www.pixiv.net/en/users/132450)</div>
+                        </div>
+                        <div class = "musicContainer">
+                            <a class = "linkI" href = "https://www.youtube.com/watch?v=cZAyznb8Qsc"><video class = "musicVideo" src = "resources/zunpet.mp4" muted autoplay loop></video></a>
+                            <div class = "musicSubtext">Music!</div>
+                        </div>
+                        <div class = "heyMisterContainer">
+                            <a class = "linkI" href = "https://www.youtube.com/watch?v=hB8S6oKjiw8"><img class = "heyMisterImage" src = "resources/heyMister.png"></a>
+                            <div class = "heyMisterSubtext">Interesting... <span class = "stuff">"stuff"</span></div>
+                        </div>
+                        <div class = "fumoContainer">
+                            <a class = "linkI" href = "https://www.youtube.com/watch?v=eEjhL0XYPvU"><img class = "fumoImage" src = "resources/reimuOnRoomba.png"></a>
+                            <div class = "fumoSubtext">and most importantly, Fumos!</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
+        
 </div>
 </body>
 </html>
