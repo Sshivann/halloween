@@ -328,7 +328,7 @@ position: relative;
     text-align: center;
     color: white;
     margin: 0.5em 1em 1.5em 1em;
-    font-family: "kamishirasawa";
+    font-family: "Protest Revolution";
 
 }
 
@@ -340,14 +340,14 @@ position: relative;
     flex-wrap: wrap;
 }
 
-.gameContainer, .fanartContainer, .musicContainer, .heyMisterContainer, .fumoContainer {
+.gameContainer, .musicContainer, .heyMisterContainer, .fumoContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1 1 0px;
 }
 
-.gameImage, .fanartImage, .musicVideo, .heyMisterImage, .fumoImage {
+.gameImage, .musicVideo, .heyMisterImage, .fumoImage {
     width: 12em;
     height: 14em;
     object-fit: cover;
@@ -358,7 +358,7 @@ position: relative;
     margin: -0.5em -1em -1em -1em;
 }
 
-.gameImage:hover, .fanartImage:hover, .musicVideo:hover, .heyMisterImage:hover, .fumoImage:hover {
+.gameImage:hover, .musicVideo:hover, .heyMisterImage:hover, .fumoImage:hover {
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(2, 173, 164);
 }
@@ -375,7 +375,7 @@ position: relative;
     border-radius: 1.5em;
 }
 
-.gameSubtext, .fanartSubtext, .musicSubtext, .heyMisterSubtext, .fumoSubtext {
+.gameSubtext, .musicSubtext, .heyMisterSubtext, .fumoSubtext {
     text-align: center;
     color: white;
     font-size: 1.7em;
