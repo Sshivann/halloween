@@ -347,7 +347,7 @@ position: relative;
     flex: 1 1 0px;
 }
 
-.gameImage, .musicVideo, .storyImage, .costumeImage {
+.gameImage, .musicImage, .storyImage, .costumeImage {
     width: 12em;
     height: 14em;
     object-fit: cover;
@@ -358,7 +358,7 @@ position: relative;
     margin: -0.5em -1em -1em -1em;
 }
 
-.gameImage:hover, .musicVideo:hover, .storyImage:hover, .costume:hover {
+.gameImage:hover, .musicImage:hover, .storyImage:hover, .costume:hover {
     transform: scale(1.05);
     box-shadow: 0 0 30px rgb(255, 150, 13);
 }
