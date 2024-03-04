@@ -315,7 +315,7 @@ position: relative;
     color: white;
 }
 .layer2Bg {
-    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9)); 
+    background-image: linear-gradient(rgb(120, 4, 4,)rgb(238, 5, 5)); 
     margin-top: 18em;
 }
 
@@ -340,34 +340,27 @@ position: relative;
     flex-wrap: wrap;
 }
 
-.gameContainer, .musicContainer, .heyMisterContainer, .fumoContainer {
+.gameContainer, .musicContainer, .storyContainer, .costumeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1 1 0px;
 }
 
-.gameImage, .musicVideo, .heyMisterImage, .fumoImage {
+.gameImage, .musicVideo, .storyImage, .costumeImage {
     width: 12em;
     height: 14em;
     object-fit: cover;
     border: 0.3em solid rgb(255, 255, 255);
     border-radius: 1.5em;
-    box-shadow: 0 10px 30px black;
+    box-shadow: 0 10px 30px rgb(255, 69, 69);
     transition: 0.3s;
     margin: -0.5em -1em -1em -1em;
 }
 
-.gameImage:hover, .musicVideo:hover, .heyMisterImage:hover, .fumoImage:hover {
+.gameImage:hover, .musicVideo:hover, .storyImage:hover, .costume:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgb(2, 173, 164);
-}
-
-.fanartSource {
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    margin-top: -2em;
+    box-shadow: 0 0 30px rgb(255, 150, 13);
 }
 
 .linkI {
@@ -375,7 +368,7 @@ position: relative;
     border-radius: 1.5em;
 }
 
-.gameSubtext, .musicSubtext, .heyMisterSubtext, .fumoSubtext {
+.gameSubtext, .musicSubtext, .storySubtext, .costumeSubtext {
     text-align: center;
     color: white;
     font-size: 1.7em;
