@@ -8,7 +8,7 @@ const audio = document.getElementById("backgroundMusic");
        audioQuery.play();
    });
 
-   function audioController() {
+   function audiocontroller() {
       if (!audio.paused) {
            audio.pause();
        }
@@ -18,8 +18,8 @@ const audio = document.getElementById("backgroundMusic");
    }
 
    imageTracker = "i"
-   function imageChange() {
-       var image = document.getElementById("audioController");
+   function imagechange() {
+       var image = document.getElementById("audiocontroller");
        
 
        if (imageTracker == "i"){

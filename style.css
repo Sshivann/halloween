@@ -565,20 +565,20 @@ position: relative;
 }
 
 @media (max-width: 860px) {
-    .rightBarStuff {
+    .rightbarstuff {
         display: none;
     }
-    .menuHamburger {
+    .menuhamburger {
         display: flex;
     }
-    .headerBar {
+    .headerbar {
         width: 100vw;
     }
     .layer1Caption, .layer1Source {
         font-size: 0.9em;
         text-align: center;
     }
-    .rightBarContainer {
+    .rightbarcontainer {
         display: flex;
         justify-content: flex-end;
         margin-right: 7vw;
@@ -589,7 +589,7 @@ position: relative;
 }
 
 @media (min-width: 861px) {
-    .rightBarStuff {
+    .rightbarstuff {
         position: relative;
         color: white;
         width: 27em;
@@ -599,7 +599,7 @@ position: relative;
         align-items: center;
         margin-right: 2.6vw;
     }
-    .rightBarStuff.show {
+    .rightbarstuff.show {
         display: flex;
         position: relative;
         flex-direction: row;
@@ -611,25 +611,19 @@ position: relative;
     }
 }
 @media (max-width: 500px) {
-    #audioController {
+    #audiocontroller {
         display: none;
     }
-    .sourcesContainer {
+    .sourcescontainer {
         top: 3.5em;
         left: 0
     }
-    .dropdownContent {
+    .dropdowncontent {
         left: 0;
         width: 17em;
     }
-    .aboutCopyright {
+    .aboutcopyright {
         display: none;
-    }
-    .dm {
-        font-size: 0.8em;
-    }
-    .sourceC, .sourcesLink {
-        font-size: 0.75em;
     }
 }
 
