@@ -61,16 +61,31 @@ body {
     cursor: pointer;
     border-radius: 100%;
     margin: 0 1em 0 2em;
+    filter: hue-rotate(50deg);
 }
 
 #audiocontroller:hover {
     filter: brightness(0.8);
 }
 .sourcescontainer {
-    color: rgba(180, 10, 10, 0.921);
+    color: rgb(180, 10, 10);
     position: absolute;
     left: 18em;
 }
+.link {
+    border: none;
+    background: none;
+    color: rgb(97, 2, 2);
+    cursor: pointer;
+    font-size: 1.3em;
+    border: 3px solid;
+    border-radius: 0.5em;
+    position: relative;
+    font-family: "Protest Revolution";
+    animation: colorChange 0.50s infinite;
+    animation-direction: alternate;
+}
+
 .link:hover {
     background: white;
 }
@@ -78,19 +93,19 @@ body {
         position: absolute;
         left: -18em;
         top: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.226);
         padding: 0.75rem;
         border-radius: 0.25rem;
         display: none;
         flex-direction: column;
         width: 30em;
         text-align: center;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
     .aboutcopyright {
         font-size: 1.2em;
-        color: rgb(255, 139, 139);
+        color: rgb(165, 24, 24);
     }
 .rightbarcontainer {
     display: flex;
@@ -109,8 +124,8 @@ body {
     margin-right: 2.5vw;
 }
 .separator {
-    width: 2.7em;
-    height: 2.3em;
+    width: 2.3em;
+    height: 3em;
 }
 .about, .characters, .music, .contact {
     font-size: 1.1em;
