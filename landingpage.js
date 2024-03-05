@@ -23,28 +23,28 @@ const audio = document.getElementById("backgroundMusic");
        
 
        if (imageTracker == "i"){
-           image.src = "resources/audioControllerOff.png"
+           image.src = "logo/soundoff.png"
            imageTracker = "I"
        }
        else {
-           image.src = "resources/audioControllerOn.png"
+           image.src = "logo/sound.png"
            imageTracker = "i"
        }
    }
 
-   const menuBtn = document.querySelector('.menuhamburger')
+   const menubtn = document.querySelector('.menuhamburger')
    let menuOpen = false;
-   menuBtn.addEventListener('click', () => {
+   menubtn.addEventListener('click', () => {
        if(!menuOpen) {
-           menuBtn.classList.add('open');
+           menubtn.classList.add('open');
            menuOpen = true;
        } else {
-           menuBtn.classList.remove('open');
+           menubtn.classList.remove('open');
            menuOpen = false;
        }
    });
-   const list = document.querySelector('.rightbarStuff');
-menuBtn.addEventListener('click', () => {
+   const list = document.querySelector('.rightbarstuff');
+menubtn.addEventListener('click', () => {
     list.classList.toggle('show');
 });
 

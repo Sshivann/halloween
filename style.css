@@ -53,6 +53,7 @@ body {
 }
 .logoimg {
     width: 3em;
+    justify-self: center;
 }
 #audiocontroller {
     width: 45px;
@@ -65,12 +66,15 @@ body {
 #audiocontroller:hover {
     filter: brightness(0.8);
 }
-.sourcesContainer {
+.sourcescontainer {
     color: rgba(180, 10, 10, 0.921);
     position: absolute;
     left: 18em;
 }
-.dropdownContent {
+.link:hover {
+    background: white;
+}
+.dropdowncontent {
         position: absolute;
         left: -18em;
         top: 100%;
@@ -112,7 +116,7 @@ body {
     font-size: 1.1em;
     text-decoration: none;
     color:rgb(221, 221, 221);
-    font-family: "Protest Revolution", sans-serif;
+    font-family: "Protest Revolution";
     position: relative;
     padding: 0 6px;
 }
@@ -613,11 +617,15 @@ position: relative;
 
 @keyframes colorChange {
     0% {
-        background: rgb(255, 109, 109);
+        background: rgba(184, 25, 4, 0.814);
     }
     100% {
-        background: rgb(143, 0, 55);
+        background: rgba(190, 6, 6, 0.837);
     }
+}
+@font-face {
+    font-family: "Protest Revolution";
+    src: url(font/ProtestRevolution-Regular.ttf);
 }
 .updateContainer {
     margin-top: 10em;
