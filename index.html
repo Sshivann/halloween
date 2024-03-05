@@ -3,146 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>HALLOWEEN</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-
-
 <body>
     <div class="backgroundcontainer">
         <video id="background" muted autoplay loop> 
             <source src="video/184576 (1080p).mp4" type="video/mp4">
         </video>
-        <audio id="backgroundMusic" class="bgm" src="audio/scary-music-box-for-spooky-scenes-165983.mp3" loop=""></audio>
-        
+        <audio id="backgroundMusic" class="bgm" src="audio/scary-music-box-for-spooky-scenes-165983.mp3" loop></audio>
     </div>
     <div class="headbar">
-    <div class="leftbarcontainer">
-    <a class="logocontainer" href=".">
-        <div class="logoimgcontainer">
-            <img class="logoimg" src="logo/scarecrow.png">
+        <div class="leftbarcontainer">
+            <a class="logocontainer" href=".">
+                <div class="logoimgcontainer">
+                    <img class="logoimg" src="logo/scarecrow.png" alt="Halloween Logo">
+                </div>
+                <div class="logohalloween"> Halloween</div>
+            </a>
+            <img id="audiocontroller" src="logo/cassette-8437146_1920.png" onclick="audiocontroller(); imagechange();" alt="Audio Controller">
         </div>
-        <div class="logoHalloween"> Halloween</div>
-        </a>
-        <img id = "audiocontroller" src = "logo/cassette-8437146_1920.png" onclick = "audiocontroller(); imagechange();">
-    </div>
-    <div class="sourcescontainer">
-        <button class = "link" onclick = "showOrHide()">Sources</button>
-        <div class = "dropdowncontent">
-            <div class = "aboutcopyright">
-                The content available on this platform is in the public domain and may be freely utilized and shared without any restrictions.
-                 You are free to use, modify, and distribute the material for personal or commercial endeavors without needing explicit permission. 
-                 We encourage you to tap into these resources for your creative ventures, and as a gesture of goodwill, consider acknowledging the
-                 original source whenever possible.
+        <div class="sourcesContainer">
+            <button class="link" onclick="showOrHide()">Sources</button>
+            <div class="dropdowncontent">
+                <div class="aboutcopyright">
+                    The content available on this platform is in the public domain and may be freely utilized and shared without any restrictions. You are free to use, modify, and distribute the material for personal or commercial endeavors without needing explicit permission. We encourage you to tap into these resources for your creative ventures, and as a gesture of goodwill, consider acknowledging the original source whenever possible.
+                </div>
+            </div>
+        </div>
+        <div class="rightbarcontainer">
+            <div class="rightbarstuff">
+                <a class="about hamburgerstuff" href="#">About</a>
+                <img class="separator hamburgerstuff" src="logo/halloween-4578711_1280.png" alt="Separator">
+                <a class="characters hamburgerstuff" href="#">Characters</a>
+                <img class="separator hamburgerstuff" src="logo/halloween-4578711_1280.png" alt="Separator">
+                <a class="music hamburgerstuff" href="#">FAQ</a>
+                <img class="separator hamburgerstuff" src="logo/halloween-4578711_1280.png" alt="Separator">
+                <a class="contact hamburgerstuff" href="#">Contact</a>
+            </div>
+            <div class="menuhamburger">
+                <div class="menuhamburgerbtn"></div>
             </div>
         </div>
     </div>
-            <div class = "rightbarcontainer">
-                <div class = "rightbarstuff">
-                <a class = "about hamburgerstuff" href = "#">About</a>
-                <img class = "separator hamburgerstuff" src = "logo/halloween-4578711_1280.png">
-                <a class = "characters hamburgerstuff" href = "#">Characters</a>
-                <img class = "separator hamburgerstuff" src = "logo/halloween-4578711_1280.png">
-                <a class = "music hamburgerstuff" href = "#">FAQ</a>
-                <img class = "separator hamburgerstuff" src = "logo/halloween-4578711_1280.png">
-                <a class = "contact hamburgerstuff" href = "#">Contact</a>
-            </div>
-            <div class = "menuhamburger"><div class = "menuhamburgerbtn"></div></div>
-        </div>
-    </div>
-    <div class = "layer1">
-        <div class = "layer1BgSources"><a class = "layer1BgSource1" href = "https://pixabay.com/videos/ghost-pumpkins-dark-atmosphere-184576/" target = "_blank">Background illustration by:monk_vadim</a><br><a class = "layer1BgSource2" href = "https://www.youtube.com/watch?v=uC6bCa_te4Y" target = "_blank"> Animated by: Cozy Cottage </a></div>
-        <div class = "layer1Container">
-            <div class = "layer1Left">
-                <div class = "greetings">
+    <div class="layer1">
+        <div class="layer1BgSources"><a class="layer1BgSource1" href="https://www.youtube.com/watch?v=vlxk8NB4bho" target="_blank">Background illustration by:monk_vadim</a><br><a class="layer1BgSource2" href="https://www.youtube.com/watch?v=uC6bCa_te4Y" target="_blank"> Animated by: Cozy Cottage </a></div>
+        <div class="layer1Container">
+            <div class="layer1Left">
+                <div class="greetings">
                  WELCOME TO THE SPOOKY CLUB🎃👻⚰️ 
                 </div>
-                <div class = "description">
-                    Step into a realm where the spooky meets the spectacular with our Halloween-themed landing page project.
-                    Designed to thrill and enchant, our page is a bewitching blend of eerie visuals, haunting soundscapes,
-                    captivating content. From ghostly animations to pumpkin-spiced promotions, every element is meticulously
-                    crafted to evoke the spirit of the season.let the magic of Halloween ignite your imagination! 🎃⚰️👻
+                <div class="description">
+                    Step into a realm where the spooky meets the spectacular with our Halloween-themed landing page project. Designed to thrill and enchant, our page is a bewitching blend of eerie visuals, haunting soundscapes, captivating content. From ghostly animations to pumpkin-spiced promotions, every element is meticulously crafted to evoke the spirit of the season. Let the magic of Halloween ignite your imagination! 🎃⚰️👻
                 </div>
-                <div class = "joinuscontainer">
-                    <a class = "joinnow" href = "">JOIN US!</a>
+                <div class="joinuscontainer">
+                    <a class="joinnow" href="">JOIN US!</a>
                 </div>
             </div>
-            <div class = "layer1Right">
-                <img class = "layer1Image" src = "img/layer1.jpg">
-                <div class = "layer1Caption">
+            <div class="layer1Right">
+                <img class="layer1Image" src="img/layer1.jpg" alt="Spooky House">
+                <div class="layer1Caption">
                  THE SPOOKY HOUSE🎃👻⚰️
                 </div>
-                <a class = "layer1Source" href = "https://pixabay.com/users/monk_vadim-23253177/" target = "_blank"></a>
+                <a class="layer1Source" href="https://pixabay.com/users/monk_vadim-23253177/" target="_blank"></a>
             </div>
         </div>
     </div>
-        <div class = "layer2">
-            <div class = "layer2Bg">
-                <div class = "layer2Content">
-                    <div class = "layer2Heading">
+        <div class="layer2">
+            <div class="layer2Bg">
+                <div class="layer2Content">
+                    <div class="layer2Heading">
                         Enjoy The Spooky Stuff 🍭🍬🎃👻
                     </div>
-                    <div class = "layer2InfoContainer">
-                        <div class = "gameContainer">
-                            <a class = "linkI" href = "https://www.novelgames.com/en/games/"><img class = "gameImage" src = "img/—Pngtree—trick or treat halloween background_1164276.png"></a>
-                            <div class = "gameSubtext">Games🎮</div>
+                    <div class="layer2InfoContainer">
+                        <div class="gameContainer">
+                            <a class="linkI" href="https://www.novelgames.com/en/games/"><img class="gameImage" src="img/—Pngtree—trick or treat halloween background_1164276.png"></a>
+                            <div class="gameSubtext">Games🎮</div>
                         </div>
-                        <div class = "musicContainer">
-                            <a class = "linkI" href = "https://www.youtube.com/watch?v=ljIiDyfn1RY"><img class = "musicImage" src = "img/music.jpg"></a>
-                            <div class = "musicSubtext">Music🎵</div>
+                        <div class="musicContainer">
+                            <a class="linkI" href="https://www.youtube.com/watch?v=ljIiDyfn1RY"><img class="musicImage" src="img/music.jpg"></a>
+                            <div class="musicSubtext">Music🎵</div>
                         </div>
-                        <div class = "storyContainer">
-                            <a class = "linkI" href = "https://lithub.com/20-spooky-short-stories-you-can-read-for-free-online/"><img class = "storyImage" src = "img/story.jpg"></a>
-                            <div class = "storySubtext">Spooky Stories🧙🏻‍♀️ </div>
+                        <div class="storyContainer">
+                            <a class="linkI" href="https://lithub.com/20-spooky-short-stories-you-can-read-for-free-online/"><img class="storyImage" src="img/story.jpg"></a>
+                            <div class="storySubtext">Spooky Stories🧙🏻‍♀️ </div>
                         </div>
-                        <div class = "costumeContainer">
-                            <a class = "linkI" href = "https://www.cosmopolitan.com/style-beauty/fashion/g7483361/scary-halloween-costumes/"><img class = "costumeImage" src = "img/costume.jpg"></a>
-                            <div class = "costumeSubtext">Spooky Costumes🧛🏻‍♂️</div>
+                        <div class="costumeContainer">
+                            <a class="linkI" href="https://www.cosmopolitan.com/style-beauty/fashion/g7483361/scary-halloween-costumes/"><img class="costumeImage" src="img/costume.jpg"></a>
+                            <div class="costumeSubtext">Spooky Costumes🧛🏻‍♂️</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class = "layer3">
-            <a class="layer3BgSource" href = "https://pixabay.com/users/monk_vadim-23253177/" target = "_blank"></a>
-            <div class = "layer3Text">
-                <div class = "layer3Quote">
+        <div class="layer3">
+            <a class="layer3BgSource" href="https://pixabay.com/users/monk_vadim-23253177/" target="_blank"></a>
+            <div class="layer3Text">
+                <div class="layer3Quote">
                     "Evil has only the power that we give it"
                 </div>
-                <div class = "layer3QuoteFrom">
+                <div class="layer3QuoteFrom">
                     -Ray Bradbury
                 </div>
             </div>
         </div>
-        <div class = "layer4">
-            <div class = "layer4Bg">
-                <div class = "layer4Content">
-                    <div class = "layer4Text">
-                        <div class = "layer4TextHeading">
+        <div class="layer4">
+            <div class="layer4Bg">
+                <div class="layer4Content">
+                    <div class="layer4Text">
+                        <div class="layer4TextHeading">
                             "Darkness falls across the land. The midnight hour is close at hand."
                         </div>
-                        <div class = "layer4TextSubtext">
+                        <div class="layer4TextSubtext">
                             "I go for a look which I call 'Dead but Delicious.'"
                         </div>
                     </div>
-                    <div class = "layer4ContactContainer">
-                        <a class = "layer4Contact" href = "#">
+                    <div class="layer4ContactContainer">
+                        <a class="layer4Contact" href="#">
                             Contact!
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class = "footerLayer">
-            <div class = "footerLayerBg">
-                <a class = "footerLayerAuthor" href = "https://github.com/Sshivann/landing-page" target = "_blank">
+        <div class="footerLayer">
+            <div class="footerLayerBg">
+                <a class="footerLayerAuthor" href="https://github.com/Sshivann/landing-page" target="_blank">
                     Webpage by: Cvan
                 </a>
             </div>
         </div>
-     </body>
-    
-    <script src = "landingpage.js"></script>
-    </html>
+    <script src="landingpage.js"></script>
+</body>
+</html>
