@@ -223,6 +223,7 @@ transform: rotate(-45deg) translate(35px, 35px);
 
 .layer1 {
 position: relative;
+
 }
 
 .layer1BgSources {
@@ -323,7 +324,7 @@ position: relative;
 }
 
 .layer1Image {
-    width: 32vw;
+    width: 35vw;
     
 }
 
