@@ -51,6 +51,11 @@ body {
     letter-spacing: 0.1em;
     font-family:"Protest Revolution";
 }
+.logoImageContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+}
 .logoimg {
     width: 3em;
     justify-self: center;
