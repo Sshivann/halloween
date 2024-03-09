@@ -235,7 +235,7 @@ position: relative;
     bottom: -19em;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.227);
+    background: rgba(0, 0, 0, 0.449);
     padding: 7px;
     border-radius: 1em;
     display: flex;
@@ -260,8 +260,8 @@ position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.101);
-    box-shadow: 0 0 2em rgba(69, 69, 69, 0);
+    background-color: rgba(0, 0, 0, 0.416);
+    box-shadow: 0 0 2em rgba(69, 69, 69, 0.519);
 }
 
 .layer1Left {
@@ -327,7 +327,8 @@ position: relative;
 }
 
 .layer1Image {
-    width: 32vw;
+    width: 29vw;
+    box-shadow: #060606cc;
     
 }
 
@@ -342,7 +343,7 @@ position: relative;
     color: white;
 }
 .layer2Bg {
-    background-image: linear-gradient(rgb(120, 4, 4,)rgb(238, 5, 5)); 
+    background-image: linear-gradient(rgba(120, 4, 4, 0.282)rgb(238, 5, 5)); 
     margin-top: 18em;
 }
 
@@ -448,7 +449,7 @@ position: relative;
     font-size: 2em;
 }
 .layer4Bg {
-    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9));    
+    background-image: linear-gradient(rgba(105, 14, 14, 0.605),rgba(56, 9, 9, 0.688));    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -511,7 +512,7 @@ position: relative;
 }
 
 .footerLayerBg {
-    background: rgba(131, 11, 2, 0.785);
+    background: rgba(131, 11, 2, 0.118);
     padding: 1.25em 0;
     box-shadow: 0 0 1em rgb(104, 2, 2);
     display: flex;
