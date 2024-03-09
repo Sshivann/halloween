@@ -261,7 +261,7 @@ position: relative;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.416);
-    box-shadow: 0 0 2em rgba(69, 69, 69, 0.519);
+    box-shadow: 0 0 2em rgba(151, 5, 5, 0.81);
 }
 
 .layer1Left {
@@ -327,9 +327,9 @@ position: relative;
 }
 
 .layer1Image {
-    width: 29vw;
-    box-shadow: #060606cc;
-    
+    width: 33vw;
+    opacity: 0.8;
+    box-shadow: #343232e4;
 }
 
 .layer1Caption {
@@ -514,7 +514,7 @@ position: relative;
 .footerLayerBg {
     background: rgba(131, 11, 2, 0.118);
     padding: 1.25em 0;
-    box-shadow: 0 0 1em rgb(104, 2, 2);
+    box-shadow: 0 0 1em rgba(128, 3, 3, 0.851);
     display: flex;
     align-items: center;
     justify-content: center;
