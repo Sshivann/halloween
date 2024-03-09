@@ -51,14 +51,13 @@ body {
     letter-spacing: 0.1em;
     font-family:"Protest Revolution";
 }
-.logoImageContainer {
+.logoimgcontainer {
     display: flex;
     align-items: center;
     margin-right: 0.5em;
 }
 .logoimg {
     width: 3em;
-    justify-self: center;
 }
 #audiocontroller {
     width: 45px;
@@ -66,7 +65,6 @@ body {
     cursor: pointer;
     border-radius: 100%;
     margin: 0 1em 0 2em;
-    filter: hue-rotate(50deg);
 }
 
 #audiocontroller:hover {
@@ -87,7 +85,7 @@ body {
     border-radius: 0.5em;
     position: relative;
     font-family: "Protest Revolution";
-    animation: colorChange 0.50s infinite;
+    animation: colorChange 0.70s infinite;
     animation-direction: alternate;
 }
 
@@ -262,8 +260,8 @@ position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 2em rgba(69, 69, 69);
+    background-color: rgba(0, 0, 0, 0.101);
+    box-shadow: 0 0 2em rgba(69, 69, 69, 0);
 }
 
 .layer1Left {
